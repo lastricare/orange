@@ -1,8 +1,8 @@
 name: wasabi ACI
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 15 * * *" #Runs on the 15th hour UTC everyday
+ # schedule:
+ #   - cron: "0 15 * * *" #Runs on the 15th hour UTC everyday
 
 env:
   ACI_PREFIX: "aci"
